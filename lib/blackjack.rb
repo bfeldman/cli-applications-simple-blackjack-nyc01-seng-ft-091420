@@ -44,6 +44,8 @@ def hit?(input)
   if input == 'h'.downcase
     deal_card
   elsif input == 's'.downcase
+  
+end
 end
 
 def invalid_command
