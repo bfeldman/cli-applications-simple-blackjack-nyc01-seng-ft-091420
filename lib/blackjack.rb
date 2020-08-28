@@ -43,9 +43,11 @@ def hit?(input)
   prompt_user
   get_user_input
   if input == 'h'.downcase
-    deal_card
+    new_card = deal_card
+    card_total += new_card
+    display_card_total(card_total)
   elsif input == 's'.downcase
-    
+    display_card_total(card_total)
   else
     invalid_command
  end
