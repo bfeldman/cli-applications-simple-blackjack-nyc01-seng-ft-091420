@@ -44,7 +44,6 @@ def hit?(card_total)
   # code hit? here
   prompt_user
   input = get_user_input
-  binding.pry
   if input == 'h'.downcase
     new_card = deal_card
     card_total += new_card
