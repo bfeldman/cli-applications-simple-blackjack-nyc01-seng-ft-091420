@@ -41,11 +41,14 @@ def hit?(input)
   # code hit? here
   prompt_user
   get_user_input
-  if input == 's'.to
+  if input == 'h'.downcase
+    deal_card
+  elsif input == 's'.downcase
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
