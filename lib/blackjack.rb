@@ -30,7 +30,8 @@ end
 
 def initial_round
   # code #initial_round here
-  2.times do {deal_card |card|}
+  card_1 = deal_card
+  card_2 = deal_card
   
 end
 
