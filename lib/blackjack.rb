@@ -50,7 +50,7 @@ def hit?(input)
     display_card_total(card_total)
   else
     invalid_command
- end
+  end
 end
 
 def invalid_command
