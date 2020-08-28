@@ -38,10 +38,10 @@ def initial_round
   card_total
 end
 
-def hit?(input)
+def hit?(card_total)
   # code hit? here
   prompt_user
-  get_user_input
+  input = get_user_input
   if input == 'h'.downcase
     new_card = deal_card
     card_total += new_card
